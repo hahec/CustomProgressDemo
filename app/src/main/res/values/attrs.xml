@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="customLinearPb" >
+        <attr name="progress_current" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+        <attr name="unreached_bar_color" format="color"/>
+        <attr name="reached_bar_color" format="color"/>
+        <attr name="unreached_bar_height" format="dimension"/>
+        <attr name="reached_bar_height" format="dimension"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_offset" format="dimension"/>
+        <attr name="text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="Theme">
+        <attr name="customLinearBarStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="circleProgressbar">
+        <attr name="circle_color" format="color"/>
+        <attr name="reached_color" format="color"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="ring" format="dimension"/>
+        <attr name="text_color_circle" format="color"/>
+        <attr name="text_size_circle" format="dimension"/>
+        <attr name="max" format="integer"/>
+        <attr name="progress" format="integer"/>
+    </declare-styleable>
+
+</resources>

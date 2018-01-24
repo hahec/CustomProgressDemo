@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.goddragonfish.customprogressdemo.CustomProgressBar.CustomLinearBar
+
+        android:id="@+id/pb_linear"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        custom:progress_current="0"
+        custom:progress_max="100"
+        custom:reached_bar_color="#3ebf0f"
+        custom:reached_bar_height="15dp"
+        custom:text_color="#de0d0d"
+        custom:text_size="10sp"
+        custom:unreached_bar_color="#848282"
+        custom:unreached_bar_height="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+    
+    <com.example.goddragonfish.customprogressdemo.CustomProgressBar.CustomCircleBar
+        android:id="@+id/pb_cir"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        custom:circle_color="@color/colorAccent"
+        custom:text_color_circle="@color/colorPrimary"
+        custom:radius="50dp"
+        custom:ring="10dp"
+        custom:text_size_circle="12sp"
+        custom:max="100"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
